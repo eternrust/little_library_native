@@ -11,6 +11,8 @@ module.exports = {
 	plugins: ['prettier'],
 	rules: {
 		'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
-		'prettier/prettier': 'error'
+		'prettier/prettier': 'error',
+		'import/prefer-default-export': 'off',
+		'react/jsx-props-no-spreading': 'off'
 	}
 }
